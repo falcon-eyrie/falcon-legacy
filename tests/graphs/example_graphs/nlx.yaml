@@ -3,7 +3,10 @@ processors:
         class: NlxReader
         options:
             batch_size: 10
-            address: 192.168.3.99
+            address: 192.168.3.100
+            port: 26090
+            convert_byte_order: false
+            nchannels: 256
             update_interval: 0
             npackets: 10000
             channelmap:

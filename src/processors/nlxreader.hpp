@@ -110,7 +110,7 @@ protected:
     void print_stats( bool condition = true );
     
 public:
-    static constexpr uint16_t MAX_NCHANNELS = 128;
+    static constexpr uint16_t MAX_NCHANNELS = 256;
     static constexpr decltype(MAX_NCHANNELS) UDP_BUFFER_SIZE =
         NLX_PACKETBYTESIZE(MAX_NCHANNELS);
     

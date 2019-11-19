@@ -17,6 +17,11 @@ CMAKE
 sudo apt-get install cmake
 
 
+G++ compiler (v5 or higher)
+--------------------
+sudo apt-get install g++
+
+
 GSL libraries
 ------------------
 sudo apt-get install libgsl0ldbl
@@ -47,13 +52,11 @@ USB-4750 DIO card drivers (see dedicated doc for more information)
 *********************
 Build instructions
 *********************
-Compiling falcon has only been tested with GNU g++ compiler.
-Version 5 is required, as it contains all C++11 libraries (see doc/g++5_how_to_install.txt for info about how to install g++ v5).
-So, to compile issue the following commands while in the falcon root directory: 
+To compile issue the following commands while in the falcon root directory: 
 
 mkdir build
 cd build
-cmake -DCMAKE_CXX_COMPILER=`which g++-5` ..
+cmake -DCMAKE_CXX_COMPILER=`g++` ..
 make
 
 
