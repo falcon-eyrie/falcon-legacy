@@ -1,6 +1,14 @@
-# A new version of Falcon is in development !
-# Most processors and datatypes have been ported on the new version - Check out the documentation [here!](https://falcon-core.readthedocs.io)
+# Falcon
 
+> [!Important]
+> **Note:** This repository is the legacy version of **Falcon**.  
+> Active development continues at **falcon-core**:  
+> https://github.com/falcon-eyrie/falcon-core
+
+
+## Overview
+
+Falcon is a high-performance, modular software platform for real-time closed-loop neuroscience experiments. It provides a multithreaded graph-based processing pipeline that allows neural data to be streamed, processed, and acted on with very low latency. Falcon is flexible, extensible, and designed to support custom processing nodes and experimental workflows while maintaining reliable millisecond-scale performance. See the original [paper](https://iopscience.iop.org/article/10.1088/1741-2552/aa7526) for more details.
 
 
 ## Dependencies
